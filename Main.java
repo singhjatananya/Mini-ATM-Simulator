@@ -1,13 +1,13 @@
 import java.util.*;
 public class Main {
     static void checkBalance(double balance){
-    System.out.println("Current Balance: "+ balance + "/-");
+    System.out.println("Current Balance: "+"₹"+ balance );
     }
 
     static  double deposit(double balance,double amount){
     if(amount > 0){
     balance = balance+amount;
-    System.out.println("Deposit successfully."+ amount + "/-");
+    System.out.println("Deposit successfully."+ "₹"+ amount);
     System.out.println("Updated balance :" + balance);
     }else{
         System.out.println("Invalid amount!");
@@ -18,8 +18,8 @@ public class Main {
     static double withdraw(double balance,double amount){
         if(amount<=balance && amount > 0){
             balance = balance - amount;
-            System.out.println("Withdrawal successful."+ amount+"/-");
-            System.out.println("Remaining balance: "+ balance +"/-");
+            System.out.println("Withdrawal successful."+ "₹"+ amount);
+            System.out.println("Remaining balance: "+"₹"+balance);
         }else if(amount>balance){
             System.out.println("Insufficient Balance");
         }else if(amount<=0){
@@ -76,7 +76,9 @@ public class Main {
         }
         while(choice !=4);
 
-
     }
+    }
+
+
   
 
