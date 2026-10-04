@@ -20,3 +20,6 @@ A simple console-based ATM simulator built using Core Java.
 
 ## Starting Balance
 ₹5000
+
+## Mini ATM Output
+<img width="1572" height="817" alt="image" src="https://github.com/user-attachments/assets/6945b6e6-18c5-4511-902e-46c5083b7e43" />
